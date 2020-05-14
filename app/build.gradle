@@ -35,7 +35,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    if(!IS_APPLICATION.toBoolean().booleanValue()){
-        implementation project(path: ':OkSpeaker')
-    }
+//    if(!IS_APPLICATION.toBoolean().booleanValue()){
+//        implementation project(path: ':OkSpeaker')
+//    }
+    implementation ("cn.rubintry.speak:OkSpeaker:1.0.6")
 }

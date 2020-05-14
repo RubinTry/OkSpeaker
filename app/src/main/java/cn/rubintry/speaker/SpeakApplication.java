@@ -7,6 +7,9 @@ import java.util.Locale;
 import cn.rubintry.speak.OkSpeaker;
 import cn.rubintry.speak.SpeakerConfig;
 
+/**
+ * @author logcat
+ */
 public class SpeakApplication extends Application {
 
     @Override
